@@ -9,3 +9,8 @@ pip3 install pyodbc psutil
 
 Compile with:
 pyinstaller --onefile purge_crews.py
+
+OR, you can use the precompiled .exe
+
+Usage:
+purge_crews.exe --username fielddata --password [SQL Password]
